@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Grand Fitness Centar — Cenovnik</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #000000;
+    }
+    header.top {
+      background: #000000;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 20px;
+      border-bottom: 5px solid #ff0015;
+    }
+    header.top img.logo {height: 90px; margin-right: 20px;}
+    header.top h1 {font-size: 46px; margin: 0; letter-spacing: 2px; color: #ff0015;}
+    nav.main {
+      background: #000000;
+      text-align: center;
+      padding: 14px 8px;
+    }
+    nav.main a {
+      color: white;
+      text-decoration: none;
+      margin: 0 25px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav.main a:hover {color: #ff0015;}
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('cenovnik-hero.jpg') center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    .wrap {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      font-size: 18px;
+    }
+    th {
+      background: #ff0015;
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    tr:hover {background: #f8d7da;}
+    tr:last-child td {border-bottom: none;}
+    footer {
+      background: #000000;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <img class="logo" src="https://i.pinimg.com/736x/e1/ae/46/e1ae4654445890950c81d76d2521e2ac.jpg">
+    <h1>FITNESS CENTAR GRAND</h1>
+  </header>
+  <nav class="main">
+    <a href="index.html">Početna</a>
+    <a href="galerija.html">Galerija</a>
+    <a href="cenovnik.html">Cenovnik</a>
+    <a href="treneri.html">Treneri</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <section class="hero">
+    <h2>Cenovnik</h2>
+  </section>
+  <main class="wrap">
+    <table>
+      <tr>
+        <th>Paket</th>
+        <th>Trajanje</th>
+        <th>Cena</th>
+      </tr>
+      <tr>
+        <td>Dnevna karta</td>
+        <td>1 dan</td>
+        <td>500 RSD</td>
+      </tr>
+      <tr>
+        <td>Mesečna članarina</td>
+        <td>30 dana</td>
+        <td>3.000 RSD</td>
+      </tr>
+      <tr>
+        <td>Polugodišnja članarina</td>
+        <td>6 meseci</td>
+        <td>13.000 RSD</td>
+      </tr>
+      <tr>
+        <td>Godišnja članarina</td>
+        <td>12 meseci</td>
+        <td>24.000 RSD</td>
+      </tr>
+      <tr>
+        <td>Personalni trening</td>
+        <td>1 sat</td>
+        <td>1.500 RSD</td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    © 2026 Fitness Centar Grand
+  </footer>
+
+</body>
+</html>
